@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jako Petshop | Kadıköy Pet Shop</title>
+<meta name="description" content="Jako Petshop - Kadıköy, İstanbul. Kedi ve köpek maması, aksesuar, kum, akvaryum ve kuş ürünleri. Hemen arayın veya WhatsApp'tan yazın.">
+<style>
+  :root{--ana:#ff7a45;--koyu:#1f2937;--acik:#fff7f2;--gri:#6b7280;--kart:#ffffff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--koyu);background:var(--acik);line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+  header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 1px 0 #f0e6df}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:1.25rem}
+  .logo span{color:var(--ana)}
+  nav a{margin-left:20px;text-decoration:none;color:var(--gri);font-weight:500}
+  @media(max-width:640px){nav{display:none}}
+  .hero{padding:72px 0 56px;text-align:center}
+  .hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin-bottom:16px}
+  .hero p{color:var(--gri);font-size:1.15rem;max-width:620px;margin:0 auto 28px}
+  .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:700;text-decoration:none}
+  .btn-ana{background:var(--ana);color:#fff}
+  .btn-wa{background:#25d366;color:#fff}
+  .btn-ghost{border:2px solid var(--koyu)}
+  section{padding:56px 0}
+  h2{font-size:1.8rem;text-align:center;margin-bottom:32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  .kart{background:var(--kart);border-radius:16px;padding:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+  .kart .ik{font-size:2rem}
+  .kart h3{margin:8px 0 4px}
+  .kart p{color:var(--gri);font-size:.95rem}
+  .yorum{background:#fff;border-radius:16px;padding:28px;text-align:center;max-width:640px;margin:0 auto}
+  .yildiz{color:#f5a623;font-size:1.4rem}
+  .iletisim{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  @media(max-width:760px){.iletisim{grid-template-columns:1fr}}
+  .iletisim iframe{width:100%;height:320px;border:0;border-radius:16px}
+  .bilgi li{list-style:none;margin-bottom:14px}
+  .bilgi b{display:block;font-size:.85rem;color:var(--gri);font-weight:600}
+  footer{text-align:center;padding:32px 0;color:var(--gri);font-size:.9rem}
+  .wa-float{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:1.6rem;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.2)}
+  .demo-bant{background:var(--koyu);color:#fff;text-align:center;font-size:.85rem;padding:8px 16px}
+</style>
+</head>
+<body>
+<div class="demo-bant">Bu, Jako Petshop için hazırlanmış bir <b>örnek tasarımdır</b>. Beğenirseniz birkaç gün içinde yayına alabiliriz.</div>
+<header>
+  <div class="wrap">
+    <div class="logo">🐾 <span>Jako Petshop</span></div>
+    <nav><a href="#urunler">Ürünler</a><a href="#hizmetler">Hizmetler</a><a href="#iletisim">İletişim</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <h1>Jako Petshop</h1>
+    <p style="font-weight:600;color:var(--ana);margin-bottom:8px">📍 Kadıköy / İstanbul</p>
+    <p>Kedi, köpek, kuş ve akvaryum dostlarınız için mama, kum, aksesuar ve bakım ürünleri. Mahallenizde, güler yüzle.</p>
+    <div class="btns">
+      <a class="btn btn-ana" href="tel:+905375241944">📞 Hemen Ara</a>
+      <a class="btn btn-wa" href="https://wa.me/905375241944?text=Merhaba%2C%20sipari%C5%9F%20vermek%20istiyorum">WhatsApp'tan Sipariş</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Jako%20Petshop%20G%C3%B6ztepe%20No%3A43/2%2C%20Kad%C4%B1k%C3%B6y/%C4%B0stanbul" target="_blank" rel="noopener">Yol Tarifi</a>
+    </div>
+  </div>
+</section>
+
+<section id="urunler">
+  <div class="wrap">
+    <h2>Ürünlerimiz</h2>
+    <div class="grid">
+      <div class="kart"><div class="ik">🐱</div><h3>Kedi Ürünleri</h3><p>Kuru ve yaş mama, kedi kumu, tırmalama, oyuncak.</p></div>
+      <div class="kart"><div class="ik">🐶</div><h3>Köpek Ürünleri</h3><p>Mama, ödül maması, tasma, yatak ve gezdirme ekipmanı.</p></div>
+      <div class="kart"><div class="ik">🐦</div><h3>Kuş & Kemirgen</h3><p>Yem, kafes, vitamin ve aksesuarlar.</p></div>
+      <div class="kart"><div class="ik">🐠</div><h3>Akvaryum</h3><p>Akvaryum, filtre, balık yemi ve bakım ürünleri.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="hizmetler" style="background:#fff">
+  <div class="wrap">
+    <h2>Neden Biz?</h2>
+    <div class="grid">
+      <div class="kart"><div class="ik">🚚</div><h3>Eve Teslimat</h3><p>Kadıköy ve çevresine hızlı teslimat.</p></div>
+      <div class="kart"><div class="ik">💬</div><h3>WhatsApp Sipariş</h3><p>Yazın, hazırlayalım, kapınıza gelsin.</p></div>
+      <div class="kart"><div class="ik">❤️</div><h3>Uzman Tavsiye</h3><p>Dostunuza en uygun mamayı birlikte seçelim.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="iletisim">
+  <div class="wrap">
+    <h2>Bize Ulaşın</h2>
+    <div class="iletisim">
+      <ul class="bilgi">
+        <li><b>Adres</b>Göztepe No:43/2, Kadıköy/İstanbul</li>
+        <li><b>Telefon</b><a href="tel:+905375241944">0537 524 19 44</a></li>
+        <li><b>Çalışma Saatleri</b>Her gün 09:00 – 21:00</li>
+      </ul>
+      <iframe loading="lazy" title="Harita" src="https://www.google.com/maps?q=Jako%20Petshop%20G%C3%B6ztepe%20No%3A43/2%2C%20Kad%C4%B1k%C3%B6y/%C4%B0stanbul&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Jako Petshop · Kadıköy, İstanbul</footer>
+<a class="wa-float" href="https://wa.me/905375241944" aria-label="WhatsApp">💬</a>
+</body>
+</html>
